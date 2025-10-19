@@ -15,48 +15,6 @@ const initialState: ContatosState = {
       email: "danilojesus212001@gmail.com",
       id: 1,
     },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 2,
-    },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 3,
-    },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 4,
-    },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 5,
-    },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 6,
-    },
-    {
-      nome: "Danilo Jesús",
-      categoria: enums.Categoria.AMIGOS,
-      telefone: "(21) 97168-4644",
-      email: "danilojesus212001@gmail.com",
-      id: 7,
-    },
   ],
 };
 
