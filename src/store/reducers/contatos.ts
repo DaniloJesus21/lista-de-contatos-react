@@ -42,6 +42,7 @@ const contatosSlice = createSlice({
       if (indexDoContato >= 0)
         state.itens[indexDoContato] = {
           ...state.itens[indexDoContato],
+          nome: action.payload.nome,
           telefone: action.payload.telefone,
           email: action.payload.email,
         };

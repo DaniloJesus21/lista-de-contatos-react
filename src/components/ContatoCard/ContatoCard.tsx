@@ -62,12 +62,12 @@ const ContatoCard = ({ id, nome, telefone, email, categoria }: Props) => {
           <S.Info>
             <S.Nome
               disabled={!estaEditando}
-              value={nome}
+              value={nomeEditado}
               onChange={(event) => setNome(event.target.value)}
             />
             <S.Email
               disabled={!estaEditando}
-              value={email}
+              value={emailEditado}
               onChange={(e) => setEmail(e.target.value)}
             />
             <S.Tag categoria={categoria}>{categoria}</S.Tag>
@@ -78,7 +78,7 @@ const ContatoCard = ({ id, nome, telefone, email, categoria }: Props) => {
       <S.Main>
         <S.Telefone
           disabled={!estaEditando}
-          value={telefone}
+          value={telefoneEditado}
           onChange={(e) => setTelefone(e.target.value)}
         />
       </S.Main>
